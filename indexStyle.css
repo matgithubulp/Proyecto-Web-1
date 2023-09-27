@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logoYmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    background-color: greenyellow;
+}
+
+.logo {
+    margin-top: 10px; 
+}
+
+.logo img {
+    width: 130px;
+    height: 130px;
+}
+
+
+.menuNavegacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menuNavegacion li {
+    display: inline-block;
+    margin: 30px; 
+}
+
+.menuNavegacion a {
+    text-decoration: none;
+    color: red;
+}
+
+.menuNavegacion li{
+    font-size: 30px;
+}
+
+.menuNavegacion {
+    border-bottom-width: 5px;
+    border-bottom-style: inset;
+    border-bottom-color-: #red;
+    width: 100%;
+}
+
+.articulo-destacado h2{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.articulo-destacado{
+border-bottom: 8px solid #000; 
+width: 1200px; 
+margin: 0 auto; 
+padding-bottom: 0px; 
+}
+
+
+.contenedor-imagenes {
+
+    display: flex;
+    justify-content:  center;
+
+}
+
+
+
+.contenedor-imagenes-img img{
+            height: 400px;
+            width: 300px;
+            object-fit: cover;
+            margin-left: 10px;
+            padding-top: 15px;
+        }
+
+
+.articulo-ultimos h2 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.articulo-ultimos{
+    border-bottom: 8px solid #000;
+    width: 1200px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+
+.contenedor-imagenes-utilmo{
+    display: flex;
+    justify-content: center;
+}   
+
+.contenedor-imagenes-ultimo-img img{
+
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+
+.articulo-lista h2{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.articulo-lista{
+    border-bottom: 8px solid #000;
+    width: 1200px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+
+
+
+.contenedor-imagenes-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contenedor-imagenes-lista-img {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px; 
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.contenedor-imagenes-lista-img a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contenedor-imagenes-lista-img img {
+  height: 200px;
+  width: 500px;
+  padding-top: 10px;
+}
+
